@@ -88,4 +88,7 @@ jQuery(document).ready(function ($) {
         $formItems.val('');
     });
 
+
+    /* ------------------- Animate css, wow js ---------------------- */
+    new WOW().init();
 });
