@@ -1,0 +1,293 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+
+
+
+
+
+
+    /*---------------- First Row Header -----------------*/
+
+    .header-logo {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .wrapper-header-contact-socials {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-contact {
+        display: flex;
+        justify-content: center;
+    }
+
+    .separator-line {
+        display: none;
+    }
+
+    .header-contacts-socials {
+        display: block;
+
+    }
+
+
+    /* ------------ Second row header-------------------- */
+
+    .wrapper-header-dropdowns {
+        flex-direction: column;
+    }
+
+    .header-group-dropdown:not(:last-child) {
+        margin: 0;
+    }
+
+    .header-group-dropdown button {
+        width: 100%;
+        font-size: 16px;
+        justify-content: center;
+    }
+
+
+
+    /* -------------------Natural Power Slider ---------------------*/
+    div.np-slider-title {
+        font-size: 40px;
+    }
+
+    div.np-slider-descr {
+        font-size: 12px;
+    }
+
+    section.section-natural-power-slider .slick-arrow {
+        top: 87%;
+        border: none;
+    }
+
+
+
+
+
+
+
+
+
+    /* ------------Section-services-------------- */
+    .service-block {
+        margin-bottom: 20px;
+    }
+
+    section.section-services {
+        padding-bottom: 38px;
+    }
+
+
+    /*--------------- Section responsive-theme----------------- */
+    .wrapper-responsive-button-position {
+        margin-top: 10px;
+    }
+
+
+
+
+
+
+    /* -------------------Section-news------------------- */
+    div.posts-block {
+        display: block;
+    }
+
+    .data-photo {
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+
+    div.posts-text {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .posts-title,
+    .posts-title-descr,
+    .posts-descr {
+        display: flex;
+        justify-content: center;
+    }
+
+    .posts-title a {
+        font-size: 9px;
+    }
+
+    /* -------------------Section-offers------------------- */
+    .offers-image {
+        display: none;
+    }
+
+    div.offer-blocks {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* -------------Section twitter slider ---------------- */
+
+    div.wrap-text-twit {
+        margin-left: 25px;
+    }
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+    .header-contacts-socials {
+        display: block;
+
+    }
+
+    /*---------------- First Row Header -----------------*/
+    .header-contact {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .separator-line {
+        display: none;
+    }
+
+
+
+    /* -------------------Natural Power Slider ---------------------*/
+    div.np-slider-title {
+        font-size: 56px;
+    }
+
+
+
+
+
+    /* ------------Section-services-------------- */
+    section.section-services {
+        padding-bottom: 38px;
+    }
+
+    .service-block {
+        margin-bottom: 20px;
+    }
+
+
+    /*--------------- Section responsive-theme----------------- */
+    .wrapper-responsive-button-position {
+        margin-top: 10px;
+    }
+
+
+
+    /* -------------------Section-news------------------- */
+    div.posts-block {
+        display: block;
+    }
+
+    .data-photo {
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+
+    .posts-title,
+    .posts-title-descr,
+    .posts-descr {
+        display: flex;
+        justify-content: center;
+    }
+
+    div.posts-text {
+        margin-left: 0;
+        text-align: center;
+    }
+
+
+
+    /* ------------Section-offers-------------- */
+    .offers-image {
+        display: none;
+    }
+
+    div.offer-blocks {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* ------------Section-services-------------- */
+    .service-block {
+        margin-bottom: 20px;
+    }
+
+    section.section-services {
+        padding-bottom: 38px;
+    }
+
+    /*--------------- Section responsive-theme----------------- */
+    .wrapper-responsive-button-position {
+        margin-top: 10px;
+    }
+
+
+
+    /* ------------Section-offers-------------- */
+    .offers-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.offer-blocks {
+        margin-top: 20px;
+        margin-left: 0;
+        padding: 0;
+    }
+}
+
+
+
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* ------------Section-offers-------------- */
+    .offers-image {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+}

@@ -1,0 +1,16 @@
+:root {
+  --li-black-blue: #141d22;
+  --li-dark-blue: #19242a;
+  --li-dark-blue-text: #23323a;
+  --li-light-blue: #008fd5;
+  --li-grey: #73848e;
+}
+
+/*highlight color*/
+::selection {
+  background: rgba(245, 200, 32, 0.88);
+}
+
+::-moz-selection {
+  background: rgba(245, 200, 32, 0.88);
+}
